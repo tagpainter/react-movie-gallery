@@ -1,5 +1,4 @@
 const path = require("path");
-const nodeExternals = require("webpack-node-externals");
 
 const paths = require("../paths");
 const resolvers = require("./resolvers");
@@ -8,27 +7,32 @@ const plugins = require("./plugins");
 
 module.exports = {
   mode: process.env.NODE_ENV,
-  name: "server",
-  target: "node",
-  entry: [path.resolve(paths.SSR_SRC, "index.js")],
-  externals: [
-    nodeExternals({
-      whitelist: /\.css$/
-    })
-  ],
-  output: {
-    path: paths.SSR_DIST,
-    filename: "index.js",
-    publicPath: process.env.PUBLIC_PATH,
-    libraryTarget: "commonjs2"
+  name: "client",
+  target: "web",
+  devtool: "cheap-source-map",
+  entry: [path.resolve(paths.GHPAGES_SRC, "index.js")],
+  externals: {
+    "fs-extra": false
   },
+  output: {
+    path: paths.GHPAGES_DIST,
+    filename: "[name].js",
+    chunkFilename: "[name].[chunkhash:8].chunk.js",
+    publicPath: process.env.PUBLIC_PATH
+  },
+  plugins: [...plugins.shared, ...plugins.ghpages],
   resolve: resolvers,
   module: {
-    rules: loaders.server
+    rules: loaders.client
   },
-  plugins: [...plugins.shared, ...plugins.server],
+  node: {
+    dgram: "empty",
+    fs: "empty",
+    net: "empty",
+    tls: "empty",
+    child_process: "empty"
+  },
   stats: {
-    assets: false,
     cached: false,
     cachedAssets: false,
     chunks: false,
@@ -37,12 +41,8 @@ module.exports = {
     colors: true,
     hash: false,
     modules: false,
-    performance: false,
     reasons: false,
     timings: true,
     version: false
-  },
-  node: {
-    __dirname: false
   }
 };

@@ -87,7 +87,7 @@ async function main() {
       });
     });
   } else {
-    app.use(paths.PUBLIC_PATH, express.static(paths.CSR_DIST));
+    app.use(process.env.PUBLIC_PATH, express.static(paths.CSR_DIST));
 
     app.use(
       require("../dist/ssr").default({

@@ -19,7 +19,10 @@ exports.shared = [
         : "[id].[contenthash].css"
   }),
   new webpack.DefinePlugin({
-    "process.env.TMDB_APIKEY": JSON.stringify(process.env.TMDB_APIKEY)
+    "process.env.TMDB_APIKEY": JSON.stringify(process.env.TMDB_APIKEY),
+    "process.env.PUBLIC_PATH": JSON.stringify(process.env.PUBLIC_PATH),
+    "process.env.BASENAME": JSON.stringify(process.env.BASENAME),
+    "process.env.I18N_URL": JSON.stringify(process.env.I18N_URL)
   })
 ];
 
@@ -29,12 +32,21 @@ exports.client = [
     new webpack.HotModuleReplacementPlugin(),
   new HtmlWebpackPlugin({
     template: path.join(paths.CSR_SRC, "index.html"),
-    filename: "index.html",
-    alwaysWriteToDisk: true
+    filename: "index.html"
   }),
-  new webpack.DefinePlugin({
-    "process.env.IS_ONLY_CSR": JSON.stringify(process.env.IS_ONLY_CSR),
-    "process.env.I18N_URL": JSON.stringify(process.env.I18N_URL)
+  new LoadablePlugin({
+    filename: "stats.json",
+    writeToDisk: true
+  })
+].filter(Boolean);
+
+exports.ghpages = [
+  new CleanWebpackPlugin(),
+  process.env.NODE_ENV == "development" &&
+    new webpack.HotModuleReplacementPlugin(),
+  new HtmlWebpackPlugin({
+    template: path.join(paths.CSR_SRC, "index.html"),
+    filename: "index.html"
   }),
   new LoadablePlugin({
     filename: "stats.json",

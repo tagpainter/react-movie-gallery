@@ -2,6 +2,9 @@
 
 this example focused on show way to provide way to SSR React.Suspense & react resources.
 
+[SSR Example](https://react-movie-gallery-test.herokuapp.com)
+[CSR Example](https://tagpainter.github.io/react-movie-gallery)
+
 ---
 
 ## Movie information application using TMDB API

@@ -18,7 +18,7 @@ module.exports = {
     path: paths.CSR_DIST,
     filename: "[name].js",
     chunkFilename: "[name].[chunkhash:8].chunk.js",
-    publicPath: paths.PUBLIC_PATH
+    publicPath: process.env.PUBLIC_PATH
   },
   plugins: [...plugins.shared, ...plugins.client],
   resolve: resolvers,

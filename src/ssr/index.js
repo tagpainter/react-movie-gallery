@@ -32,7 +32,11 @@ export default ({ statsFile }) => async (req, res, next) => {
       <StyleSheetManager sheet={sheet.instance}>
         <ChunkExtractorManager extractor={chunkExtractor}>
           <ResourcesProvider resources={resources}>
-            <StaticRouter location={req.url} context={routerContext}>
+            <StaticRouter
+              basename={process.env.BASENAME}
+              location={req.url}
+              context={routerContext}
+            >
               <App bestLocale={bestLocale} />
             </StaticRouter>
           </ResourcesProvider>

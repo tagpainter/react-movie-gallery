@@ -56,7 +56,7 @@ async function main() {
   } else {
     const historyApiFallback = require("express-history-api-fallback");
 
-    app.use(paths.PUBLIC_PATH, express.static(paths.CSR_DIST));
+    app.use(process.env.PUBLIC_PATH, express.static(paths.CSR_DIST));
 
     app.use(historyApiFallback(path.resolve(paths.CSR_DIST, "index.html")));
   }
