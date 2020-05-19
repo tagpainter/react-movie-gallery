@@ -2,7 +2,7 @@
   "errors": [],
   "warnings": [],
   "version": "4.43.0",
-  "hash": "186d7ddc20f36114f3ba",
+  "hash": "b98b26b0cd1d6bdb1580",
   "publicPath": "/react-movie-gallery/",
   "outputPath": "/webroot/react-movie-gallery/dist/ghpages",
   "assetsByChunkName": {
@@ -15,8 +15,8 @@
       "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map"
     ],
     "About": [
-      "About.69837c68.chunk.js",
-      "About.69837c68.chunk.js.map"
+      "About.63a37388.chunk.js",
+      "About.63a37388.chunk.js.map"
     ],
     "Asset": [
       "Asset.a3b66c17.chunk.js",
@@ -71,8 +71,8 @@
   },
   "assets": [
     {
-      "name": "About.69837c68.chunk.js",
-      "size": 8181,
+      "name": "About.63a37388.chunk.js",
+      "size": 9063,
       "chunks": [
         2
       ],
@@ -85,8 +85,8 @@
       "emitted": false
     },
     {
-      "name": "About.69837c68.chunk.js.map",
-      "size": 8375,
+      "name": "About.63a37388.chunk.js.map",
+      "size": 9257,
       "chunks": [
         2
       ],
@@ -690,8 +690,8 @@
       "assets": [
         "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
         "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
-        "About.69837c68.chunk.js",
-        "About.69837c68.chunk.js.map"
+        "About.63a37388.chunk.js",
+        "About.63a37388.chunk.js.map"
       ],
       "children": {},
       "childAssets": {}
