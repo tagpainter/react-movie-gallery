@@ -1,8 +1,9 @@
-# react-movie-gallery
+# react-movie-gallery (작업중)
 
 이 예제는 React.Suspense와 react resource를 활용한 서버사이드 렌더링 구현에 대한 예시입니다.
 
 [SSR 예제](https://react-movie-gallery-test.herokuapp.com)
+
 [CSR 예제](https://tagpainter.github.io/react-movie-gallery)
 
 ---
