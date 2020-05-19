@@ -8,8 +8,11 @@
     "build-ssr": "cross-env NODE_ENV=production node -r dotenv-flow/config scripts/build-ssr.js",
     "build-csr": "cross-env NODE_ENV=production node -r dotenv-flow/config scripts/build-csr.js",
     "build-ghpages": "cross-env NODE_ENV=production PUBLIC_PATH=/react-movie-gallery/ BASENAME=/react-movie-gallery/ I18N_URL=/react-movie-gallery/lang/ node -r dotenv-flow/config scripts/build-ghpages.js",
-    "start-ssr": "pm2-runtime start pm2/ssr.config.js --env production",
-    "start-ghpages": "cross-env NODE_ENV=development PUBLIC_PATH=/react-movie-gallery/ BASENAME=/react-movie-gallery/ I18N_URL=/react-movie-gallery/lang/ node -r dotenv-flow/config scripts/start-ghpages.js",
+    "start-ssr": "cross-env NODE_ENV=production node -r dotenv-flow/config scripts/start-ssr.js",
+    "start-csr": "cross-env NODE_ENV=production node -r dotenv-flow/config scripts/start-csr.js",
+    "start-ghpages": "cross-env NODE_ENV=production PUBLIC_PATH=/react-movie-gallery/ BASENAME=/react-movie-gallery/ I18N_URL=/react-movie-gallery/lang/ node -r dotenv-flow/config scripts/start-ghpages.js",
+    "dev-ssr": "cross-env NODE_ENV=development node -r dotenv-flow/config scripts/start-ssr.js",
+    "dev-csr": "cross-env NODE_ENV=development node -r dotenv-flow/config scripts/start-csr.js",
     "deploy": "yarn build-ghpages && gh-pages -d dist/ghpages"
   },
   "dependencies": {
