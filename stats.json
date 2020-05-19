@@ -1,0 +1,830 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.43.0",
+  "hash": "17bc9b7193b36a92067f",
+  "publicPath": "/react-movie-gallery/",
+  "outputPath": "/webroot/react-movie-gallery/dist/ghpages",
+  "assetsByChunkName": {
+    "vendors~About~Default~Detail~Favourites~Home~Person~View": [
+      "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+      "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map"
+    ],
+    "vendors~Asset~Default~Detail~Favourites~Person~View": [
+      "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+      "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map"
+    ],
+    "About": [
+      "About.69837c68.chunk.js",
+      "About.69837c68.chunk.js.map"
+    ],
+    "Asset": [
+      "Asset.a3b66c17.chunk.js",
+      "Asset.a3b66c17.chunk.js.map"
+    ],
+    "Default": [
+      "Default.e794fc57.chunk.js",
+      "Default.e794fc57.chunk.js.map"
+    ],
+    "Detail": [
+      "Detail.9b91a1b5.chunk.js",
+      "Detail.9b91a1b5.chunk.js.map"
+    ],
+    "Favourites": [
+      "Favourites.fb4cf320.chunk.js",
+      "Favourites.fb4cf320.chunk.js.map"
+    ],
+    "FullScreen": [
+      "FullScreen.7919c369.chunk.js",
+      "FullScreen.7919c369.chunk.js.map"
+    ],
+    "Home": [
+      "Home.15863ad5.chunk.js",
+      "Home.15863ad5.chunk.js.map"
+    ],
+    "NotFound": [
+      "NotFound.c5dea7a4.chunk.js",
+      "NotFound.c5dea7a4.chunk.js.map"
+    ],
+    "Person": [
+      "Person.82424e29.chunk.js",
+      "Person.82424e29.chunk.js.map"
+    ],
+    "Preparing": [
+      "Preparing.6e669def.chunk.js",
+      "Preparing.6e669def.chunk.js.map"
+    ],
+    "View": [
+      "View.a98c38d1.chunk.js",
+      "View.a98c38d1.chunk.js.map"
+    ],
+    "main": [
+      "main.6b6e1c51f6de4146336a.css",
+      "main.js",
+      "main.6b6e1c51f6de4146336a.css.map",
+      "main.js.map"
+    ],
+    "vendors~Asset": [
+      "vendors~Asset.f39cfc69.chunk.js",
+      "vendors~Asset.f39cfc69.chunk.js.map"
+    ]
+  },
+  "assets": [
+    {
+      "name": "About.69837c68.chunk.js",
+      "size": 8181,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "About"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "About.69837c68.chunk.js.map",
+      "size": 8375,
+      "chunks": [
+        2
+      ],
+      "chunkNames": [
+        "About"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Asset.a3b66c17.chunk.js",
+      "size": 2464,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "Asset"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Asset.a3b66c17.chunk.js.map",
+      "size": 2644,
+      "chunks": [
+        3
+      ],
+      "chunkNames": [
+        "Asset"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Default.e794fc57.chunk.js",
+      "size": 14191,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "Default"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Default.e794fc57.chunk.js.map",
+      "size": 14745,
+      "chunks": [
+        4
+      ],
+      "chunkNames": [
+        "Default"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Detail.9b91a1b5.chunk.js",
+      "size": 21112,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "Detail"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Detail.9b91a1b5.chunk.js.map",
+      "size": 21885,
+      "chunks": [
+        5
+      ],
+      "chunkNames": [
+        "Detail"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Favourites.fb4cf320.chunk.js",
+      "size": 9604,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "Favourites"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Favourites.fb4cf320.chunk.js.map",
+      "size": 10031,
+      "chunks": [
+        6
+      ],
+      "chunkNames": [
+        "Favourites"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "FullScreen.7919c369.chunk.js",
+      "size": 885,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "FullScreen"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "FullScreen.7919c369.chunk.js.map",
+      "size": 1012,
+      "chunks": [
+        7
+      ],
+      "chunkNames": [
+        "FullScreen"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Home.15863ad5.chunk.js",
+      "size": 15051,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Home.15863ad5.chunk.js.map",
+      "size": 15622,
+      "chunks": [
+        8
+      ],
+      "chunkNames": [
+        "Home"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "NotFound.c5dea7a4.chunk.js",
+      "size": 10154,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "NotFound"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "NotFound.c5dea7a4.chunk.js.map",
+      "size": 10577,
+      "chunks": [
+        9
+      ],
+      "chunkNames": [
+        "NotFound"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Person.82424e29.chunk.js",
+      "size": 7831,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "Person"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Person.82424e29.chunk.js.map",
+      "size": 8224,
+      "chunks": [
+        10
+      ],
+      "chunkNames": [
+        "Person"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Preparing.6e669def.chunk.js",
+      "size": 10158,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "Preparing"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "Preparing.6e669def.chunk.js.map",
+      "size": 10582,
+      "chunks": [
+        11
+      ],
+      "chunkNames": [
+        "Preparing"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "View.a98c38d1.chunk.js",
+      "size": 8879,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "View"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "View.a98c38d1.chunk.js.map",
+      "size": 9202,
+      "chunks": [
+        12
+      ],
+      "chunkNames": [
+        "View"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "index.html",
+      "size": 451,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.6b6e1c51f6de4146336a.css",
+      "size": 2835,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "main.6b6e1c51f6de4146336a.css.map",
+      "size": 2966,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "main.js",
+      "size": 554934,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "main.js.map",
+      "size": 566268,
+      "chunks": [
+        13
+      ],
+      "chunkNames": [
+        "main"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+      "size": 9558,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+      "size": 10296,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~Asset.f39cfc69.chunk.js",
+      "size": 17915,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "vendors~Asset"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~Asset.f39cfc69.chunk.js.map",
+      "size": 18526,
+      "chunks": [
+        14
+      ],
+      "chunkNames": [
+        "vendors~Asset"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+      "size": 8720,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendors~Asset~Default~Detail~Favourites~Person~View"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+      "size": 9106,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "vendors~Asset~Default~Detail~Favourites~Person~View"
+      ],
+      "info": {
+        "development": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "main": {
+      "chunks": [
+        13
+      ],
+      "assets": [
+        "main.6b6e1c51f6de4146336a.css",
+        "main.js",
+        "main.6b6e1c51f6de4146336a.css.map",
+        "main.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "chunks": [
+        13
+      ],
+      "assets": [
+        "main.6b6e1c51f6de4146336a.css",
+        "main.js",
+        "main.6b6e1c51f6de4146336a.css.map",
+        "main.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Default": {
+      "chunks": [
+        0,
+        1,
+        4
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+        "Default.e794fc57.chunk.js",
+        "Default.e794fc57.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "View": {
+      "chunks": [
+        0,
+        1,
+        12
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+        "View.a98c38d1.chunk.js",
+        "View.a98c38d1.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "FullScreen": {
+      "chunks": [
+        7
+      ],
+      "assets": [
+        "FullScreen.7919c369.chunk.js",
+        "FullScreen.7919c369.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Home": {
+      "chunks": [
+        0,
+        8
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "Home.15863ad5.chunk.js",
+        "Home.15863ad5.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Favourites": {
+      "chunks": [
+        0,
+        1,
+        6
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+        "Favourites.fb4cf320.chunk.js",
+        "Favourites.fb4cf320.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Detail": {
+      "chunks": [
+        0,
+        1,
+        5
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+        "Detail.9b91a1b5.chunk.js",
+        "Detail.9b91a1b5.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Asset": {
+      "chunks": [
+        1,
+        14,
+        3
+      ],
+      "assets": [
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+        "vendors~Asset.f39cfc69.chunk.js",
+        "vendors~Asset.f39cfc69.chunk.js.map",
+        "Asset.a3b66c17.chunk.js",
+        "Asset.a3b66c17.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Person": {
+      "chunks": [
+        0,
+        1,
+        10
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js",
+        "vendors~Asset~Default~Detail~Favourites~Person~View.a6a533c3.chunk.js.map",
+        "Person.82424e29.chunk.js",
+        "Person.82424e29.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "About": {
+      "chunks": [
+        0,
+        2
+      ],
+      "assets": [
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js",
+        "vendors~About~Default~Detail~Favourites~Home~Person~View.948b20b1.chunk.js.map",
+        "About.69837c68.chunk.js",
+        "About.69837c68.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "Preparing": {
+      "chunks": [
+        11
+      ],
+      "assets": [
+        "Preparing.6e669def.chunk.js",
+        "Preparing.6e669def.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "NotFound": {
+      "chunks": [
+        9
+      ],
+      "assets": [
+        "NotFound.c5dea7a4.chunk.js",
+        "NotFound.c5dea7a4.chunk.js.map"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": [
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/react-movie-gallery/",
+      "outputPath": "/webroot/react-movie-gallery/dist/ghpages",
+      "assetsByChunkName": {
+        "HtmlWebpackPlugin_0": "__child-HtmlWebpackPlugin_0"
+      },
+      "assets": [
+        {
+          "name": "__child-HtmlWebpackPlugin_0",
+          "size": 4321,
+          "chunks": [
+            0
+          ],
+          "chunkNames": [
+            "HtmlWebpackPlugin_0"
+          ],
+          "info": {},
+          "emitted": false
+        }
+      ],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "__child-HtmlWebpackPlugin_0"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "HtmlWebpackCompiler"
+    },
+    {
+      "errors": [],
+      "warnings": [],
+      "publicPath": "/react-movie-gallery/",
+      "outputPath": "/webroot/react-movie-gallery/dist/ghpages",
+      "assetsByChunkName": {},
+      "assets": [],
+      "filteredAssets": 0,
+      "entrypoints": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "namedChunkGroups": {
+        "mini-css-extract-plugin": {
+          "chunks": [
+            0
+          ],
+          "assets": [
+            "*"
+          ],
+          "children": {},
+          "childAssets": {}
+        }
+      },
+      "logging": {
+        "webpack.buildChunkGraph.visitModules": {
+          "entries": [],
+          "filteredEntries": 2,
+          "debug": false
+        }
+      },
+      "children": [],
+      "name": "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js!node_modules/postcss-loader/src/index.js??ref--4-oneOf-1-3!node_modules/sass-loader/dist/cjs.js!src/app/index.scss"
+    }
+  ]
+}
