@@ -1,0 +1,78 @@
+@import "~normalize.css";
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+html {
+  line-height: 1.5;
+
+  @media screen and (max-width: 399px) {
+    font-size: calc(4vw);
+  }
+  @media screen and (min-width: 400px) {
+    font-size: 16px;
+  }
+}
+body {
+  background-color: #222;
+  color: #eee;
+  font-family: MontSerrat, "Noto Sans KR", sans-serif;
+  overflow-x: hidden;
+}
+*::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(#eee, 0.1);
+
+  &:hover {
+    background-color: rgba(#eee, 0.5);
+  }
+}
+input::-ms-clear,
+input:-ms-clear {
+  display: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 0.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+p {
+  margin: 0;
+  margin-bottom: 0.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+dl {
+  margin: 0;
+  margin-bottom: 0.75rem;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
