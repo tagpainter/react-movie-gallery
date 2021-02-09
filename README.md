@@ -1,8 +1,11 @@
 # react-movie-gallery (작업중)
 
-이 예제는 새로운 React.Suspense와 react resource를 활용한 서버사이드 렌더링 구현에 대한 예시입니다.
+이 예제는 새로운 React.Suspense와 react resource 개념을 활용한 서버사이드 렌더링 구현에 대한 실험적인 프로젝트입니다.
+
+디자인, 마크업, 프론트엔드 개발을 진행하였습니다.
 
 [SSR 예제](https://react-movie-gallery-test.herokuapp.com)
+(herokuapp은 서버 부팅 시간이 걸릴 수 있습니다.)
 
 [CSR 예제](https://tagpainter.github.io/react-movie-gallery)
 
